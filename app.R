@@ -39,7 +39,7 @@ server <- function(input, output, session) {
       for (i in 1:num_years()) {
         claim_list[[i]] <- lapply(1:(num_years() - i + 1), function(k) {
           numericInput(paste0(first_year() + i - 1, "input", k),
-                       paste(first_year() + i - 1, "Input", k, sep = " "),
+                       paste0("Loss Year ", first_year() + i - 1, ", Development Year ", k),
                        value = 1, min = 0, max = Inf)
         } )
       }

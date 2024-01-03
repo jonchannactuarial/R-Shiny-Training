@@ -1,0 +1,10 @@
+name: r-shiny-training
+title:
+username: jonchannactuarial
+account: jonchannactuarial
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10863384
+bundleId: 8104713
+url: https://jonchannactuarial.shinyapps.io/r-shiny-training/
+version: 1
